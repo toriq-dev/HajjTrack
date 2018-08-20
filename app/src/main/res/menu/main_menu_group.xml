@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activity.ListGroupActivity">
+    <item
+        android:id="@+id/action_profile"
+        android:orderInCategory="300"
+        android:title="Profile"
+        android:icon="@drawable/user"
+        app:showAsAction="never"></item>
+    <item
+        android:id="@+id/action_logout"
+        android:orderInCategory="300"
+        android:title="Logout"
+        android:icon="@drawable/quantum_ic_clear_white_24"
+        app:showAsAction="never"></item>
+
+
+
+</menu>
